@@ -1,0 +1,14 @@
+{
+  "name": "jenkins-node-app",
+  "version": "1.0.0",
+  "description": "Jenkins CI/CD Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo Build completed successfully",
+    "test": "node test.js",
+    "package": "tar -czf app.tar.gz server.js package.json test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
